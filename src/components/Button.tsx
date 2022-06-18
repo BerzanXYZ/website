@@ -12,7 +12,7 @@ export function ModeButton({onClick, isDark}: {onClick: MouseEventHandler<HTMLBu
 }
 
 const Button = tailt.button`
-    w-9 h-9 active:scale-[0.8] md:hover:scale-90 md:active:scale-100 animate-pulse
+    w-8 h-8 active:scale-[0.8] md:hover:scale-90 md:active:scale-100 animate-pulse
     fill-neutral-900
     dark:fill-white
     duration-200
