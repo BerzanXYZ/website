@@ -4,12 +4,13 @@ import { Footer, FooterTitleBox, FooterTitlePrimary, FooterTitleSecondary, Foote
 import { H1 } from '../components/Headings'
 import { MainDiv } from '../components/Main'
 import { Page } from '../components/Page'
-import { SectionMe } from '../components/Sections'
+import { SectionCards, SectionMe } from '../components/Sections'
 import { ShapeBox } from '../components/ShapeBox'
 import { CircleCyan, CircleSky, CircleTeal } from '../components/shapes/Circle'
 import { Brand, TopBar } from '../components/TopBar'
 import useMode from 'usemode'
 import { ModeButton } from '../components/Button'
+import { CardHor, CardVer } from '../components/Cards'
 
 const Home: NextPage = () => {
     const mode = useMode()
@@ -34,6 +35,12 @@ const Home: NextPage = () => {
                 <SectionMe>
                     <H1>Welcome to <br/>my world</H1>
                 </SectionMe>
+                <SectionCards>
+                    <CardHor>The dev you need to </CardHor>
+                    <CardVer>Amazing design</CardVer>
+                    <CardVer>Blazingly fast</CardVer>
+                    <CardHor>What would you want more</CardHor>
+                </SectionCards>
             </MainDiv>
             <FooterWrapper>
                 <Footer>
