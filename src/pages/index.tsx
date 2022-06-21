@@ -4,13 +4,13 @@ import { Footer, FooterTitleBox, FooterTitlePrimary, FooterTitleSecondary, Foote
 import { H1 } from '../components/Headings'
 import { MainDiv } from '../components/Main'
 import { Page } from '../components/Page'
-import { SectionCards, SectionMe } from '../components/Sections'
+import { SectionCards, SectionMe, SectionSocialMedia } from '../components/Sections'
 import { ShapeBox } from '../components/ShapeBox'
 import { CircleCyan, CircleSky, CircleTeal } from '../components/shapes/Circle'
 import { Brand, TopBar } from '../components/TopBar'
 import useMode from 'usemode'
 import { ModeButton } from '../components/Button'
-import { CardHor, CardVer } from '../components/Cards'
+import { CardHor, CardSocialMedia, CardVer } from '../components/Cards'
 
 const Home: NextPage = () => {
     const mode = useMode()
@@ -45,6 +45,12 @@ const Home: NextPage = () => {
                     <CardVer>Blazingly fast</CardVer>
                     <CardHor>What would you want more</CardHor>
                 </SectionCards>
+                <SectionSocialMedia>
+                    <CardSocialMedia>My Twitter Account</CardSocialMedia>
+                    <CardSocialMedia>My Twitter Account</CardSocialMedia>
+                    <CardSocialMedia>My Twitter Account</CardSocialMedia>
+                    <CardSocialMedia>My Twitter Account</CardSocialMedia>
+                </SectionSocialMedia>
             </MainDiv>
             <FooterWrapper>
                 <Footer>

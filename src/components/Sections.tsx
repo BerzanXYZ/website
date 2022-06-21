@@ -12,3 +12,9 @@ export const SectionCards = tailt.section`
     w-full max-w-7xl
     gap-x-5 gap-y-4 px-4
 `
+
+export const SectionSocialMedia = tailt.section`
+    grid grid-cols-2 md:grid-cols-4
+    w-full max-w-7xl
+    gap-6 px-4
+`
