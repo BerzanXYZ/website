@@ -25,6 +25,10 @@ const Home: NextPage = () => {
                 <CircleTeal/>
                 <CircleSky/>
                 <CircleCyan/>
+                <CircleSky/>
+                <CircleTeal/>
+                <CircleCyan/>
+                <CircleTeal/>
             </ShapeBox>
             
             <TopBar>
