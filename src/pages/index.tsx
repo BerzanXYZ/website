@@ -46,10 +46,10 @@ const Home: NextPage = () => {
                     <CardHor>What would you want more</CardHor>
                 </SectionCards>
                 <SectionSocialMedia>
-                    <CardSocialMedia>My Twitter Account</CardSocialMedia>
-                    <CardSocialMedia>My Twitter Account</CardSocialMedia>
-                    <CardSocialMedia>My Twitter Account</CardSocialMedia>
-                    <CardSocialMedia>My Twitter Account</CardSocialMedia>
+                    <CardSocialMedia> Twitter </CardSocialMedia>
+                    <CardSocialMedia> Discord </CardSocialMedia>
+                    <CardSocialMedia> GitHub </CardSocialMedia>
+                    <CardSocialMedia> Email </CardSocialMedia>
                 </SectionSocialMedia>
             </MainDiv>
             <FooterWrapper>

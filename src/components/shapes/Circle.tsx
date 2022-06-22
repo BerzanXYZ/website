@@ -1,7 +1,7 @@
 import tailt from "tailt"
  
 export const CircleTeal = tailt.div`
-    rounded-full bg-teal-300 dark:bg-teal-600
+    rounded-full bg-teal-200 dark:bg-teal-600
     w-80 h-80
     ml-20 sm:ml-40 md:ml-20 lg:ml-40 xl:ml-60
     self-baseline
