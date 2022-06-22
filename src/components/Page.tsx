@@ -5,5 +5,4 @@ export const Page = tailt.div`
     min-h-screen
     bg-white text-neutral-900
     dark:bg-neutral-900 dark:text-white
-    duration-200
 `

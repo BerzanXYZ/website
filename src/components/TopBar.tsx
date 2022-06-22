@@ -7,7 +7,6 @@ export const TopBar = tailt.header`
     px-6
     bg-white bg-opacity-70 backdrop-blur-lg
     dark:bg-neutral-900 dark:bg-opacity-70 dark:backdrop-blur-lg
-    duration-200
 `
 
 export const Brand = tailt.h1`
