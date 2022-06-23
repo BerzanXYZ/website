@@ -10,6 +10,6 @@ export const TopBar = tailt.header`
 `
 
 export const Brand = tailt.h1`
-    font-bold
-    text-2xl
+    font-bold text-2xl
+    cursor-pointer select-none
 `

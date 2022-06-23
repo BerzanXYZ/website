@@ -8,11 +8,8 @@ body {
   font-family: 'Manrope', sans-serif;
 }
 
-input,
-textarea,
 button,
-select,
 div,
-a {
+h1 {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }

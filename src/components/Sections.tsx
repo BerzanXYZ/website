@@ -4,7 +4,7 @@ export const SectionMe = tailt.section`
     flex flex-col
     text-center
     w-full max-w-7xl
-    px-6 
+    px-6 lg:pb-6
 `
 
 export const SectionCards = tailt.section`

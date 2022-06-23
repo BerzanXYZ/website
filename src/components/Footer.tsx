@@ -5,6 +5,7 @@ export const FooterWrapper = tailt.footer`
     py-16 px-8 w-full
     bg-white bg-opacity-70 backdrop-blur-lg
     dark:bg-neutral-900 dark:bg-opacity-70 dark:backdrop-blur-lg
+    select-none
 `
 export const Footer = tailt.div`
     flex flex-col
