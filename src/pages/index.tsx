@@ -6,7 +6,7 @@ import { MainDiv } from '../components/Main'
 import { Page } from '../components/Page'
 import { SectionCards, SectionMe, SectionSocialMedia, SectionWork } from '../components/Sections'
 import { ShapeBox } from '../components/ShapeBox'
-import { CircleCyan, CircleSky, CircleTeal } from '../components/shapes/Circle'
+import { CircleCyan, CircleCyan2, CircleSky, CircleSky2, CircleTeal, CircleTeal2 } from '../components/shapes/Circle'
 import { Brand, TopBar } from '../components/TopBar'
 import useMode from 'usemode'
 import { ModeButton } from '../components/Button'
@@ -26,10 +26,10 @@ const Home: NextPage = () => {
                 <CircleTeal/>
                 <CircleSky/>
                 <CircleCyan/>
-                <CircleSky/>
-                <CircleTeal/>
-                <CircleCyan/>
-                <CircleTeal/>
+                <CircleSky2/>
+                <CircleTeal2/>
+                <CircleCyan2/>
+                <CircleTeal2/>
             </ShapeBox>
             
             <TopBar>

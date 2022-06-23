@@ -24,6 +24,6 @@ export const SectionWork = tailt.section`
 export const SectionSocialMedia = tailt.section`
     grid grid-cols-2 md:grid-cols-4
     w-full max-w-7xl
-    gap-6 px-4
+    gap-5 px-4
     select-none
 `
