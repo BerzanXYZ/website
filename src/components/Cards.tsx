@@ -2,7 +2,7 @@ import tailt from "tailt"
 
 export const CardVer = tailt.div`
     flex justify-center items-center text-center
-    font-bold text-3xl sm:text-4xl md:text-5xl lg:text:6xl
+    font-bold text-3xl md:text-4xl lg:text-5xl
     px-4
     rounded-xl h-[calc(25vw+25rem)] sm:h-[calc(30vw+9rem)] max-h-96
     shadow-[0_0_0.4rem_#bbb]
@@ -14,7 +14,7 @@ export const CardVer = tailt.div`
 
 export const CardHor = tailt.div`
     flex justify-center items-center text-center sm:col-span-2
-    font-bold text-3xl sm:text-4xl md:text-5xl lg:text:6xl
+    font-bold text-3xl md:text-4xl lg:text-5xl
     px-4
     rounded-xl h-[calc(25vw+25rem)] sm:h-[calc(20vw+6rem)] max-h-96
     shadow-[0_0_0.4rem_#bbb]

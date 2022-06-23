@@ -41,10 +41,10 @@ const Home: NextPage = () => {
                     <H1>Welcome to <br/>my world</H1>
                 </SectionMe>
                 <SectionCards>
-                    <CardHor>The dev you need to </CardHor>
-                    <CardVer>Amazing design</CardVer>
+                    <CardHor>The dev you need</CardHor>
+                    <CardVer>Amazing designs</CardVer>
                     <CardVer>Blazingly fast</CardVer>
-                    <CardHor>What would you want more</CardHor>
+                    <CardHor>Modernish</CardHor>
                 </SectionCards>
                 <SectionWork>
                     <CardWork>
