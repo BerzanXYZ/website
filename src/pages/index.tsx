@@ -57,11 +57,11 @@ const Home: NextPage = () => {
                     </CardWork>
                     <CardWork>
                         <CardWorkH>Backend</CardWorkH>
-                        <CardWorkP>Nah, who cares about backend?</CardWorkP>
+                        <CardWorkP>Who cares about backend?</CardWorkP>
                     </CardWork>
                     <CardWork>
                         <CardWorkH>Web3</CardWorkH>
-                        <CardWorkP>The future of the internet I live in.</CardWorkP>
+                        <CardWorkP>The future of Internet I live in.</CardWorkP>
                     </CardWork>
                     <CardWork>
                         <CardWorkH>Sports</CardWorkH>
@@ -69,7 +69,7 @@ const Home: NextPage = () => {
                     </CardWork>
                     <CardWork>
                         <CardWorkH>Smart Contracts</CardWorkH>
-                        <CardWorkP>My goal is to learn and build dapps.</CardWorkP>
+                        <CardWorkP>My goal is to build good dapps.</CardWorkP>
                     </CardWork>
                 </SectionWork>
                 <SectionSocialMedia>
