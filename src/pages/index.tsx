@@ -20,6 +20,8 @@ const Home: NextPage = () => {
             <Head>
                 <title>Berzan</title>
                 <meta name="description" content="Berzan, builds amazing websites and apps." />
+                <meta name="keywords" content="Berzan, BerzanXYZ, website, developer"/>
+                <meta name="author" content="Berzan"/>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <ShapeBox>
