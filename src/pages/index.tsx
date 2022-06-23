@@ -73,10 +73,10 @@ const Home: NextPage = () => {
                     </CardWork>
                 </SectionWork>
                 <SectionSocialMedia>
-                    <CardSocialMedia onClick={()=>openInNewTab("https://twitter.com")}> Twitter </CardSocialMedia>
-                    <CardSocialMedia onClick={()=>openInNewTab("https://discord.com")}> Discord </CardSocialMedia>
+                    <CardSocialMedia onClick={()=>openInNewTab("https://twitter.com/BerzanXYZ")}> Twitter </CardSocialMedia>
+                    <CardSocialMedia onClick={()=>openInNewTab("https://discord.com/users/879386840719827014")}> Discord </CardSocialMedia>
                     <CardSocialMedia onClick={()=>openInNewTab("https://github.com/BerzanXYZ")}> GitHub </CardSocialMedia>
-                    <CardSocialMedia onClick={()=>openInNewTab("mailto:berzan@example.com")}> Email </CardSocialMedia>
+                    <CardSocialMedia onClick={()=>openInNewTab("mailto:berzan@tutanota.com")}> Email </CardSocialMedia>
                 </SectionSocialMedia>
             </MainDiv>
             <FooterWrapper>
