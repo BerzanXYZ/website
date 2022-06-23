@@ -4,13 +4,13 @@ import { Footer, FooterTitleBox, FooterTitlePrimary, FooterTitleSecondary, Foote
 import { H1 } from '../components/Headings'
 import { MainDiv } from '../components/Main'
 import { Page } from '../components/Page'
-import { SectionCards, SectionMe, SectionSocialMedia } from '../components/Sections'
+import { SectionCards, SectionMe, SectionSocialMedia, SectionWork } from '../components/Sections'
 import { ShapeBox } from '../components/ShapeBox'
 import { CircleCyan, CircleSky, CircleTeal } from '../components/shapes/Circle'
 import { Brand, TopBar } from '../components/TopBar'
 import useMode from 'usemode'
 import { ModeButton } from '../components/Button'
-import { CardHor, CardSocialMedia, CardVer } from '../components/Cards'
+import { CardHor, CardSocialMedia, CardVer, CardWork, CardWorkH, CardWorkP } from '../components/Cards'
 import openInNewTab from '../utils/openwindow'
 
 const Home: NextPage = () => {
@@ -46,6 +46,32 @@ const Home: NextPage = () => {
                     <CardVer>Blazingly fast</CardVer>
                     <CardHor>What would you want more</CardHor>
                 </SectionCards>
+                <SectionWork>
+                    <CardWork>
+                        <CardWorkH>Frontend</CardWorkH>
+                        <CardWorkP>I am very good at it!</CardWorkP>
+                    </CardWork>
+                    <CardWork>
+                        <CardWorkH>Design</CardWorkH>
+                        <CardWorkP>Guess how skilled I am at it ;)</CardWorkP>
+                    </CardWork>
+                    <CardWork>
+                        <CardWorkH>Backend</CardWorkH>
+                        <CardWorkP>Nah, who cares about backend?</CardWorkP>
+                    </CardWork>
+                    <CardWork>
+                        <CardWorkH>Web3</CardWorkH>
+                        <CardWorkP>The future of the internet I live in.</CardWorkP>
+                    </CardWork>
+                    <CardWork>
+                        <CardWorkH>Sports</CardWorkH>
+                        <CardWorkP>Sports is definitely everything.</CardWorkP>
+                    </CardWork>
+                    <CardWork>
+                        <CardWorkH>Smart Contracts</CardWorkH>
+                        <CardWorkP>My goal is to learn and build dapps.</CardWorkP>
+                    </CardWork>
+                </SectionWork>
                 <SectionSocialMedia>
                     <CardSocialMedia onClick={()=>openInNewTab("https://twitter.com")}> Twitter </CardSocialMedia>
                     <CardSocialMedia onClick={()=>openInNewTab("https://discord.com")}> Discord </CardSocialMedia>

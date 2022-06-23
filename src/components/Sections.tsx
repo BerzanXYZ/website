@@ -14,6 +14,13 @@ export const SectionCards = tailt.section`
     select-none
 `
 
+export const SectionWork = tailt.section`
+    grid grid-cols-1 md:grid-cols-2
+    w-full max-w-7xl
+    gap-4 px-4
+    select-none
+`
+
 export const SectionSocialMedia = tailt.section`
     grid grid-cols-2 md:grid-cols-4
     w-full max-w-7xl
