@@ -11,6 +11,7 @@ import { Brand, TopBar } from '../components/TopBar'
 import useMode from 'usemode'
 import { ModeButton } from '../components/Button'
 import { CardHor, CardSocialMedia, CardVer } from '../components/Cards'
+import openInNewTab from '../utils/openwindow'
 
 const Home: NextPage = () => {
     const mode = useMode()
@@ -46,10 +47,10 @@ const Home: NextPage = () => {
                     <CardHor>What would you want more</CardHor>
                 </SectionCards>
                 <SectionSocialMedia>
-                    <CardSocialMedia> Twitter </CardSocialMedia>
-                    <CardSocialMedia> Discord </CardSocialMedia>
-                    <CardSocialMedia> GitHub </CardSocialMedia>
-                    <CardSocialMedia> Email </CardSocialMedia>
+                    <CardSocialMedia onClick={()=>openInNewTab("https://twitter.com")}> Twitter </CardSocialMedia>
+                    <CardSocialMedia onClick={()=>openInNewTab("https://discord.com")}> Discord </CardSocialMedia>
+                    <CardSocialMedia onClick={()=>openInNewTab("https://github.com/BerzanXYZ")}> GitHub </CardSocialMedia>
+                    <CardSocialMedia onClick={()=>openInNewTab("mailto:berzan@example.com")}> Email </CardSocialMedia>
                 </SectionSocialMedia>
             </MainDiv>
             <FooterWrapper>
