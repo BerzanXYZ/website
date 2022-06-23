@@ -30,8 +30,8 @@ export const CardWork = tailt.div`
     rounded-xl
     shadow-[0_0_1rem_#bbb]
     dark:shadow-[0_0_1rem_#171717]
-    bg-gray-300 bg-opacity-40 backdrop-blur-lg
-    dark:bg-gray-700 dark:bg-opacity-60 dark:backdrop-blur-lg
+    bg-teal-400 bg-opacity-40 backdrop-blur-lg
+    dark:bg-teal-700 dark:bg-opacity-60 dark:backdrop-blur-lg
     duration-200
 `
 export const CardWorkH = tailt.h2`font-semibold text-xl`
@@ -45,7 +45,7 @@ export const CardSocialMedia = tailt.div`
     md:hover:rotate-6 md:active:-rotate-6
     shadow-[0_0_1rem_#bbb]
     dark:shadow-[0_0_1rem_#171717]
-    bg-teal-100 bg-opacity-40 backdrop-blur-lg
-    dark:bg-teal-800 dark:bg-opacity-60 dark:backdrop-blur-lg
+    bg-cyan-400 bg-opacity-40 backdrop-blur-lg
+    dark:bg-cyan-700 dark:bg-opacity-60 dark:backdrop-blur-lg
     duration-200 cursor-pointer
 `
