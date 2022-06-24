@@ -28,6 +28,7 @@ export const CardWork = tailt.div`
     flex flex-col
     p-8 gap-y-3
     rounded-xl
+    md:hover:scale-[1.02]
     shadow-[0_0_1rem_#bbb]
     dark:shadow-[0_0_1rem_#171717]
     bg-teal-400 bg-opacity-40 backdrop-blur-lg

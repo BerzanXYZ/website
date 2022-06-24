@@ -12,6 +12,7 @@ import useMode from 'usemode'
 import { ModeButton } from '../components/Button'
 import { CardHor, CardSocialMedia, CardVer, CardWork, CardWorkH, CardWorkP } from '../components/Cards'
 import openInNewTab from '../utils/openwindow'
+import Link from 'next/link'
 
 const Home: NextPage = () => {
     const mode = useMode()
@@ -35,7 +36,7 @@ const Home: NextPage = () => {
             </ShapeBox>
             
             <TopBar>
-                <Brand>Berzan</Brand>
+                <Brand><Link href="/">Berzan</Link></Brand>
                 <ModeButton onClick={mode.toggle} isDark={mode.isDark}/>
             </TopBar>
             <MainDiv>
