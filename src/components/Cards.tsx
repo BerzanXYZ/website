@@ -41,7 +41,7 @@ export const CardSocialMedia = tailt.div`
     flex justify-center items-center
     font-bold text-xl lg:text-2xl
     px-4
-    rounded-xl h-[calc(10vw+5rem)]
+    rounded-xl h-[calc(10vw+5rem)] max-h-56
     md:hover:rotate-6 active:-rotate-6 md:active:-rotate-6
     shadow-[0_0_1rem_#bbb]
     dark:shadow-[0_0_1rem_#171717]
